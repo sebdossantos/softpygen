@@ -1,4 +1,4 @@
-# Generic
+# softpygen
 
 Start a generic python software which handle cmd lines and logging
 
