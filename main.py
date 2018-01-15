@@ -2,14 +2,12 @@ import sys
 import getopt
 
 # instantiate the logger
-import logging
 from logging.config import fileConfig
-fileConfig('config/logger.ini')
-logger = logging.getLogger()
 
 
 class Main:
     def __init__(self):
+        fileConfig('config/logger.ini')
         self.verbose = False
 
         # cmd args values
